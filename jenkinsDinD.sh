@@ -15,4 +15,6 @@ docker exec -u root -it jenkins bash -lc "apt-get update && apt-get install -y d
 
 docker exec -it jenkins docker run --rm hello-world
 
+#for the jenkins password
+
 docker logs jenkins
